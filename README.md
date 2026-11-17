@@ -1,8 +1,10 @@
-# Fly Away Travel — Frontend
+# Fly Away Travel - Frontend
 
 SPA para la API de reserva de vuelos **Fly Away** (CS2031 · Semana 14).
 
 **Stack:** Vite · React 19 · TypeScript · Tailwind CSS v4 · Axios · React Router
+
+Adriana Alvarado - 202420154
 
 ## Cómo correrlo
 
