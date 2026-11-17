@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* daisyUI solo en tema claro, con el morado como color primario */
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: oklch(54.1% 0.281 293.009); /* violet-600 */
+  --color-primary-content: oklch(100% 0 0);
+  --radius-box: 1rem;
+  --radius-field: 0.5rem;
+}
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-800 antialiased;
+}
